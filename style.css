@@ -67,7 +67,7 @@ body, html{
 }
 
 .portfolio{
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
 }
 
@@ -93,6 +93,35 @@ body, html{
  color: #3B6D8C;
 }
 
-.card-title > span{
-  color: #3B6D8C;
+.card > span{
+  color: black;
+}
+
+.services{
+  height: 75vh;
+  width: 100vw;
+  background-color: #3B6D8C;
+}
+
+.services-header > h1{
+  margin-top: 5%;
+  color: #ffffff;
+}
+
+.collapsible-body{
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 455px){
+  body,html{
+    background-color: #3B6D8C;
+  }
+
+  .portfolio-img{
+    display: none
+  }
+
+  .services-header, .portfolio-header > h1{
+    font-size: 45px;
+  }
 }
